@@ -229,6 +229,23 @@ img {
 				padding: 0 1.25em 0 1.25em;
 			}
 
+		h2.minor {
+			position: relative;
+			border-top: solid 5px var(--color_basic_h2_major_border);
+			font-size: 1.65em;
+			text-align: center;
+			margin: 0 0 1em 0;
+			top: 0em;
+		}
+
+		h2.minor span {
+			background: #fff;
+			position: relative;
+			display: inline-block;
+			top: -0.775em;
+			padding: 0 1.25em 0 1.25em;
+		}
+
 	h3, h4 {
 		font-size: 1.25em;
 	}
@@ -3048,6 +3065,15 @@ img {
 					h2.major span {
 						padding: 0 1em;
 					}
+
+		h2.minor {
+			font-size: 1.25em;
+			margin: 0 0 2em 0;
+		}
+
+		h2.minor span {
+			padding: 0 1em;
+		}
 
 		/* Section/Article */
 
